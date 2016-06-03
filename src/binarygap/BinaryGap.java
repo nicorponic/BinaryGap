@@ -29,7 +29,6 @@ public class BinaryGap {
                 max = count > max ? count : max;
                 count = 0;
             }
-
         }
         System.out.println(max);
     }
