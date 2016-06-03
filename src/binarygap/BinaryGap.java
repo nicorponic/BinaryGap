@@ -14,7 +14,8 @@ public class BinaryGap {
         int r = 0;
 
         while (N > 0) {
-            // get right most bit. The & bitwise operator makes N=1 if right hand bit is 1 otherwise 0.
+            // get right most bit. The & bitwise operator makes r=1 if right 
+            //hand bit of N is also 1, otherwise 0.
             r = N & 1;
             // shift right
             N = N >> 1;
